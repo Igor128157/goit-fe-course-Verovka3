@@ -10,9 +10,10 @@
     <link rel="stylesheet" href="module05/css/style.css">
 </head>
 <body>
-   <nav>
-    <img class="logo" src="module05/img/LOGO (3).png" alt="logo" />
-
+   <nav class="wrapper clearfix">
+     <a href="#">
+       <img class="logo" src="module05/img/LOGO (3).png" alt="logo" />
+     </a>
     <ul class="nav-menu">
       <li class="nav-menu_item">
         <a href="#">Home</a>
@@ -35,35 +36,25 @@
     </ul>
   </nav>
   <header>
-    <div class="overlay">
-    </div>
-
-    <div class="header-content">
-        <div class="slider">
-            <div class="slider-arrow">
-                <div class="arrow">
-                </div>
-            </div>
+    <div class="overlay"></div>
+    <div class="slider">
+        <div class="slider-wrp">
+          <button class="slider-button left-arrow"></button>
+          <button class="slider-button right-arrow"></button>
         </div>
-
-        <div class="slider2">
-            <div class="slider-arrow2">
-                <div class="arrow2">
-                </div>
+        <ul class="container-fluid">
+          <li class="container">
+            <div class="slogan">
+              <h3 class="slogan-headline">Affordable paris tours</h3>
+              <p class="slogan-descr">Sity tours/tours tickets/tours guides</p>
             </div>
-        </div>
-
-      <div class="content_holder">
-        <h2>Affordable Paris Tours</h2>
-        <h5>City tours / Tour tickets / Tour guides</h5>
+          </li>
+        </ul>
       </div>
-
-    </div>
 </header>
-
 <div class="section-title">
   <h1 class="title">New collection</h1>
-    <div class="cards">
+    <div class="cards wrapper clearfix">
     <div class="cart">
         <div class="cart-img-wrp">
           <img src="module05/img/category-2.png" alt="" class="cart-img">
@@ -87,10 +78,9 @@
             <div class="cart-text-wrp clearfix">
               <span class="cart-title">Blue Tshirt</span>
               <span class="cart-price">$26</span>
+            </div>
     </div>
-</div>
-
-<div class="cart">
+    <div class="cart">
     <div class="cart-img-wrp">
         <img src="module05/img/category-1.png" alt="" class="cart-img">
         <div class="cart-modal"></div>
@@ -114,9 +104,8 @@
         <span class="cart-title">Woman Shirt</span>
         <span class="cart-price">$31</span>
       </div>
-</div>
-
-<div class="cart">
+        </div>
+    <div class="cart">
         <div class="cart-img-wrp">
             <img src="module05/img/category-4.png" alt="" class="cart-img">
             <div class="cart-modal"></div>
@@ -140,8 +129,7 @@
             <span class="cart-title">Yellow Tshirt</span>
             <span class="cart-price">$21</span>
           </div>
-    </div>
-
+        </div>
     <div class="cart">
             <div class="cart-img-wrp">
                 <img src="module05/img/category-3.png" alt="" class="cart-img">
@@ -167,14 +155,12 @@
                 <span class="cart-price">$56</span>
               </div>
         </div>
-    </div>
-
+  </div>
 </div>
 <footer class="footer">
     <div class="footer-title"><span class="property">All Rights Reserved © Dokan | Designed</span>
     <span class="name"> ThemenGraph</span>
     </div>
 </footer>
-
 </body>
 </html>
